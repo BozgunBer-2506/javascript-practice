@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ES6 Modules</title>
+</head>
+<body>
+    <h1>ES6 Modules Output</h1>
+    <pre id="output"></pre>
+    
+    <script type="module">
+        import { add, multiply } from './math.js';
+        import { BASE_URL, API_KEY } from './api.js';
+        
+        let output = '';
+        output += 'add(2, 3): ' + add(2, 3) + '\n';
+        output += 'multiply(4, 5): ' + multiply(4, 5) + '\n';
+        output += 'BASE_URL: ' + BASE_URL + '\n';
+        output += 'API_KEY: ' + API_KEY + '\n';
+        
+        document.getElementById('output').textContent = output;
+    </script>
+</body>
+</html>
