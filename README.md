@@ -42,12 +42,18 @@ node 9_objects.js
 node 10_spread_objects.js
 node 11_object_destructuring.js
 node 12_immutability.js
+```
 
 # For ES6 Modules
+
+```
 cd 13_modules
 node app.js
+````
 
 # Final Project
+
+```
 cd ..
 node 14_final_project.js
 ```
